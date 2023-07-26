@@ -14,7 +14,7 @@
     import "../Assets/Styles/Application.css";
     function Applied(){
         const [apply, setApply] = useState(false);
-    const [job, setJob] = useState({}); // Set initial value as an empty object
+    const [job, setJob] = useState({});
     const jobId = localStorage.getItem("jobId");
     const token = localStorage.getItem("token");
 
